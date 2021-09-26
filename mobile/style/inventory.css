@@ -1,0 +1,283 @@
+.mediaViewInfo {
+	--web-view-name: inventory;
+	--web-view-id: inventory;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: inventory;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#inventory {
+	position: absolute;
+	width: 414px;
+	height: 736px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: inventory;
+	--web-view-id: inventory;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_body_hx {
+	fill: rgba(235,235,235,1);
+}
+.index_body_hx {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 736px;
+	left: 0px;
+	top: 0px;
+}
+#index_content_hy {
+	fill: rgba(255,255,255,1);
+}
+.index_content_hy {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 670px;
+	left: 19px;
+	top: 33px;
+}
+#index_footer_hz {
+	fill: rgba(0,83,149,1);
+}
+.index_footer_hz {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 46px;
+	left: 19px;
+	top: 657px;
+}
+#menu_h {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 19px;
+	top: 108px;
+	overflow: visible;
+}
+#index_menu_h {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_h {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_1_h {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+}
+#index_social_menu_h {
+	fill: rgba(141,157,177,1);
+}
+.index_social_menu_h {
+	overflow: visible;
+	position: absolute;
+	width: 95.05px;
+	height: 12.25px;
+	left: 159.475px;
+	top: 673.875px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#dEDI_logo_mobile_h {
+	position: absolute;
+	width: 167px;
+	height: 63px;
+	left: 124px;
+	top: 39px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#Component_6__6 {
+	position: absolute;
+	width: 319.688px;
+	height: 18.286px;
+	left: 48px;
+	top: 113px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: lending.html;
+	cursor: pointer;
+}
+#Icon_awesome-database_h {
+	fill: rgba(141,157,177,1);
+}
+.Icon_awesome-database_h {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 18.286px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_map-bank_h {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_map-bank_h {
+	overflow: visible;
+	position: absolute;
+	width: 8.688px;
+	height: 13.44px;
+	left: 311px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_awesome-clipboard-li_h {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-clipboard-li_h {
+	overflow: visible;
+	position: absolute;
+	width: 10.5px;
+	height: 14px;
+	left: 227px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_open-magnifying-glas_h {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_open-magnifying-glas_h {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 267px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: tracking.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-user-friends_ia {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-user-friends_ia {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 14px;
+	left: 177px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: partners.html;
+	cursor: pointer;
+}
+#lend_Icon_material-message_ib {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-message_ib {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 133px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: messages.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-wpforms_ic {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-wpforms_ic {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 15.754px;
+	left: 90px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#lend_Icon_material-dashboard_id {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-dashboard_id {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 16.941px;
+	left: 46px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Component_55__1 {
+	position: absolute;
+	width: 333px;
+	height: 478px;
+	left: 41px;
+	top: 142px;
+	overflow: visible;
+}
+#inven_heading {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	height: 14px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(141,157,177,1);
+}
+#invent_mov_hist_rep {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 324px;
+	height: 454px;
+	left: 9px;
+	top: 24px;
+	overflow: visible;
+}

@@ -1,0 +1,1232 @@
+.mediaViewInfo {
+	--web-view-name: partners;
+	--web-view-id: partners;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: partners;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#partners {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(235,235,235,1);
+	overflow: hidden;
+	--web-view-name: partners;
+	--web-view-id: partners;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_main_lu {
+	fill: rgba(246,247,248,1);
+}
+.index_main_lu {
+	overflow: visible;
+	position: absolute;
+	width: 1208px;
+	height: 739px;
+	left: 36px;
+	top: 31px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_26__1_lv {
+	position: absolute;
+	width: 65.326px;
+	height: 770px;
+	left: 36px;
+	top: 0px;
+	overflow: visible;
+}
+#index_menu_lw {
+	fill: rgba(246,247,248,1);
+}
+.index_menu_lw {
+	position: absolute;
+	overflow: visible;
+	width: 65.326px;
+	height: 770px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_awesome-money-bill_lx {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-money-bill_lx {
+	overflow: visible;
+	position: absolute;
+	width: 45px;
+	height: 27px;
+	left: 10px;
+	top: 728px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: lending.html;
+	cursor: pointer;
+}
+#Icon_open-magnifying-glass_ly {
+	fill: rgba(0,83,149,1);
+}
+.Icon_open-magnifying-glass_ly {
+	overflow: visible;
+	position: absolute;
+	width: 36.326px;
+	height: 36.326px;
+	left: 15px;
+	top: 631px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: tracking.html;
+	cursor: pointer;
+}
+#Icon_awesome-clipboard-check_lz {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-clipboard-check_lz {
+	overflow: visible;
+	position: absolute;
+	width: 27px;
+	height: 36px;
+	left: 19px;
+	top: 525.181px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: inventory.html;
+	cursor: pointer;
+}
+#Icon_awesome-users_l {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-users_l {
+	overflow: visible;
+	position: absolute;
+	width: 45px;
+	height: 31.5px;
+	left: 10px;
+	top: 429.009px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_material-message_l {
+	fill: rgba(0,83,149,1);
+}
+.Icon_material-message_l {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 18px;
+	top: 333.992px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: msgs.html;
+	cursor: pointer;
+}
+#Icon_awesome-wpforms_l {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-wpforms_l {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 31.507px;
+	left: 17px;
+	top: 237.99px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#Icon_material-dashboard_l {
+	fill: rgba(0,83,149,1);
+}
+.Icon_material-dashboard_l {
+	overflow: visible;
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 19px;
+	top: 147.139px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Icon_awesome-database_l {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-database_l {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 36px;
+	left: 17px;
+	top: 44px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#index_header_l {
+	fill: transparent;
+}
+.index_header_l {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 76px;
+	left: 101px;
+	top: 31px;
+}
+#Rectangle_305_l {
+	fill: rgba(0,83,149,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_305_l {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 739px;
+	left: 101px;
+	top: 31px;
+}
+#partners_main {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.partners_main {
+	overflow: visible;
+	position: absolute;
+	width: 1032px;
+	height: 579px;
+	left: 166px;
+	top: 136px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_308 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_308 {
+	position: absolute;
+	overflow: visible;
+	width: 1032px;
+	height: 187px;
+	left: 166px;
+	top: 136px;
+}
+#Component_31__2 {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 187px;
+	top: 168px;
+	overflow: visible;
+}
+#card_container {
+	fill: transparent;
+}
+.card_container {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_mc {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_mc {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__3 {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 357px;
+	top: 168px;
+	overflow: visible;
+}
+#card_container_mf {
+	fill: transparent;
+}
+.card_container_mf {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_mg {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_mh {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_mh {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_mi {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__4 {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 698px;
+	top: 168px;
+	overflow: visible;
+}
+#card_container_mk {
+	fill: transparent;
+}
+.card_container_mk {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_ml {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_mm {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_mm {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_mn {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__5 {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 869px;
+	top: 168px;
+	overflow: visible;
+}
+#card_container_mp {
+	fill: transparent;
+}
+.card_container_mp {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_mq {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_mr {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_mr {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_ms {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__6 {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 528px;
+	top: 168px;
+	overflow: visible;
+}
+#card_container_mu {
+	fill: transparent;
+}
+.card_container_mu {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_mv {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_mw {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_mw {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_mx {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__7 {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 1039px;
+	top: 168px;
+	overflow: visible;
+}
+#card_container_mz {
+	fill: transparent;
+}
+.card_container_mz {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_m {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_na {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_na {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_m {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_308_m {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_308_m {
+	position: absolute;
+	overflow: visible;
+	width: 1032px;
+	height: 187px;
+	left: 166px;
+	top: 528px;
+}
+#Component_31__2_m {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 187px;
+	top: 560px;
+	overflow: visible;
+}
+#card_container_m {
+	fill: transparent;
+}
+.card_container_m {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_nb {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_nc {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_nc {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_na {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__3_m {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 357px;
+	top: 560px;
+	overflow: visible;
+}
+#card_container_na {
+	fill: transparent;
+}
+.card_container_na {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_nd {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_ne {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_ne {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_nd {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__4_ne {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 698px;
+	top: 560px;
+	overflow: visible;
+}
+#card_container_nf {
+	fill: transparent;
+}
+.card_container_nf {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_ng {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_nh {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_nh {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_ni {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__5_nj {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 869px;
+	top: 560px;
+	overflow: visible;
+}
+#card_container_nk {
+	fill: transparent;
+}
+.card_container_nk {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_nl {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_nm {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_nm {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_nn {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__6_no {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 528px;
+	top: 560px;
+	overflow: visible;
+}
+#card_container_np {
+	fill: transparent;
+}
+.card_container_np {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_nq {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_nr {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_nr {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_ns {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__7_nt {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 1039px;
+	top: 560px;
+	overflow: visible;
+}
+#card_container_nu {
+	fill: transparent;
+}
+.card_container_nu {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_nv {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_nw {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_nw {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_nx {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_308_ny {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_308_ny {
+	position: absolute;
+	overflow: visible;
+	width: 1032px;
+	height: 187px;
+	left: 166px;
+	top: 332px;
+}
+#Component_31__2_nz {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 187px;
+	top: 364px;
+	overflow: visible;
+}
+#card_container_n {
+	fill: transparent;
+}
+.card_container_n {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_n {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_oa {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_oa {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_n {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__3_n {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 357px;
+	top: 364px;
+	overflow: visible;
+}
+#card_container_oa {
+	fill: transparent;
+}
+.card_container_oa {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_ob {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_oc {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_oc {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_oa {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__4_n {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 698px;
+	top: 364px;
+	overflow: visible;
+}
+#card_container_ob {
+	fill: transparent;
+}
+.card_container_ob {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_od {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_oe {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_oe {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_od {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__5_oe {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 869px;
+	top: 364px;
+	overflow: visible;
+}
+#card_container_of {
+	fill: transparent;
+}
+.card_container_of {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_og {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_oh {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_oh {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_oi {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__6_oj {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 528px;
+	top: 364px;
+	overflow: visible;
+}
+#card_container_ok {
+	fill: transparent;
+}
+.card_container_ok {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_ol {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_om {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_om {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_on {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Component_31__7_oo {
+	position: absolute;
+	width: 119px;
+	height: 121px;
+	left: 1039px;
+	top: 364px;
+	overflow: visible;
+}
+#card_container_op {
+	fill: transparent;
+}
+.card_container_op {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-contact-phone_oq {
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 19px;
+	top: 9.875px;
+	overflow: visible;
+}
+#Icon_material-contact-phone_or {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-contact-phone_or {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 70.125px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bobs_Logistics_os {
+	left: 11.5px;
+	top: 93.5px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 27px;
+	text-align: left;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#dEDI_ot {
+	position: absolute;
+	width: 90px;
+	height: 80px;
+	left: 126px;
+	top: 35px;
+	overflow: visible;
+}

@@ -1,0 +1,735 @@
+.mediaViewInfo {
+	--web-view-name: forms;
+	--web-view-id: forms;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: forms;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#forms {
+	position: absolute;
+	width: 414px;
+	height: 736px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: forms;
+	--web-view-id: forms;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_body_bi {
+	fill: rgba(235,235,235,1);
+}
+.index_body_bi {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 736px;
+	left: 0px;
+	top: 0px;
+}
+#index_content_bj {
+	fill: rgba(255,255,255,1);
+}
+.index_content_bj {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 670px;
+	left: 19px;
+	top: 33px;
+}
+#index_footer_bk {
+	fill: rgba(0,83,149,1);
+}
+.index_footer_bk {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 46px;
+	left: 19px;
+	top: 657px;
+}
+#menu_bl {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 19px;
+	top: 108px;
+	overflow: visible;
+}
+#index_menu_bm {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_bn {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_1_bn {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+}
+#index_social_menu_bo {
+	fill: rgba(141,157,177,1);
+}
+.index_social_menu_bo {
+	overflow: visible;
+	position: absolute;
+	width: 95.05px;
+	height: 12.25px;
+	left: 159.475px;
+	top: 673.875px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#dEDI_logo_mobile_bp {
+	position: absolute;
+	width: 167px;
+	height: 63px;
+	left: 124px;
+	top: 39px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Component_6__2 {
+	position: absolute;
+	width: 319.688px;
+	height: 18.286px;
+	left: 48px;
+	top: 113px;
+	overflow: visible;
+}
+#Icon_awesome-database_br {
+	fill: rgba(141,157,177,1);
+}
+.Icon_awesome-database_br {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 18.286px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_map-bank_bs {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_map-bank_bs {
+	overflow: visible;
+	position: absolute;
+	width: 8.688px;
+	height: 13.44px;
+	left: 311px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: lending.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-clipboard-li_bt {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-clipboard-li_bt {
+	overflow: visible;
+	position: absolute;
+	width: 10.5px;
+	height: 14px;
+	left: 227px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: inventory.html;
+	cursor: pointer;
+}
+#lend_Icon_open-magnifying-glas_bu {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_open-magnifying-glas_bu {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 267px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: tracking.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-user-friends_bv {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-user-friends_bv {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 14px;
+	left: 177px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: partners.html;
+	cursor: pointer;
+}
+#lend_Icon_material-message_bw {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-message_bw {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 133px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: messages.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-wpforms_bx {
+	opacity: 0.69;
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-wpforms_bx {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 15.754px;
+	left: 90px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_material-dashboard_by {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-dashboard_by {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 16.941px;
+	left: 46px;
+	top: 1.345px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#forms_title {
+	left: 38px;
+	top: 146px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	height: 14px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(141,157,177,1);
+}
+#forms_main {
+	fill: rgba(255,255,255,1);
+}
+.forms_main {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 313px;
+	height: 476px;
+	left: 68px;
+	top: 168px;
+}
+#forms_example_forms {
+	position: absolute;
+	width: 254px;
+	height: 438px;
+	left: 89px;
+	top: 178px;
+	overflow: hidden;
+}
+#Group {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#form_img {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_b {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 0px;
+	overflow: visible;
+}
+#form_img_b {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_ca {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 0px;
+	overflow: visible;
+}
+#form_img_ca {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cb {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 0px;
+	overflow: visible;
+}
+#form_img_cb {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cc {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 70px;
+	overflow: visible;
+}
+#form_img_cc {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cd {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 70px;
+	overflow: visible;
+}
+#form_img_cd {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_ce {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 70px;
+	overflow: visible;
+}
+#form_img_cf {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cg {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 70px;
+	overflow: visible;
+}
+#form_img_ch {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_ci {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 140px;
+	overflow: visible;
+}
+#form_img_cj {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_ck {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 140px;
+	overflow: visible;
+}
+#form_img_cl {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cm {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 140px;
+	overflow: visible;
+}
+#form_img_cn {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_co {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 140px;
+	overflow: visible;
+}
+#form_img_cp {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cq {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 210px;
+	overflow: visible;
+}
+#form_img_cr {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cs {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 210px;
+	overflow: visible;
+}
+#form_img_ct {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cu {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 210px;
+	overflow: visible;
+}
+#form_img_cv {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cw {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 210px;
+	overflow: visible;
+}
+#form_img_cx {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_cy {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 280px;
+	overflow: visible;
+}
+#form_img_cz {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_c {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 280px;
+	overflow: visible;
+}
+#form_img_c {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_da {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 280px;
+	overflow: visible;
+}
+#form_img_da {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_db {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 280px;
+	overflow: visible;
+}
+#form_img_db {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_dc {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 350px;
+	overflow: visible;
+}
+#form_img_dc {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_dd {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 350px;
+	overflow: visible;
+}
+#form_img_dd {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_de {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 350px;
+	overflow: visible;
+}
+#form_img_de {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_df {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 350px;
+	overflow: visible;
+}
+#form_img_df {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_dg {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 420px;
+	overflow: visible;
+}
+#form_img_dg {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_dh {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 66px;
+	top: 420px;
+	overflow: visible;
+}
+#form_img_dh {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_di {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 132px;
+	top: 420px;
+	overflow: visible;
+}
+#form_img_dj {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_dk {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 198px;
+	top: 420px;
+	overflow: visible;
+}
+#form_img_dl {
+	position: absolute;
+	width: 46px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}

@@ -1,0 +1,656 @@
+.mediaViewInfo {
+	--web-view-name: messages;
+	--web-view-id: messages;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: messages;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#messages {
+	position: absolute;
+	width: 414px;
+	height: 736px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: messages;
+	--web-view-id: messages;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_body_do {
+	fill: rgba(235,235,235,1);
+}
+.index_body_do {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 736px;
+	left: 0px;
+	top: 0px;
+}
+#index_content_dp {
+	fill: rgba(255,255,255,1);
+}
+.index_content_dp {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 670px;
+	left: 18px;
+	top: 33px;
+}
+#index_footer_dq {
+	fill: rgba(0,83,149,1);
+}
+.index_footer_dq {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 46px;
+	left: 19px;
+	top: 657px;
+}
+#menu_dr {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 19px;
+	top: 108px;
+	overflow: visible;
+}
+#index_menu_ds {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_dt {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_1_dt {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+}
+#index_social_menu_du {
+	fill: rgba(141,157,177,1);
+}
+.index_social_menu_du {
+	overflow: visible;
+	position: absolute;
+	width: 95.05px;
+	height: 12.25px;
+	left: 159.475px;
+	top: 673.875px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#dEDI_logo_mobile_dv {
+	position: absolute;
+	width: 167px;
+	height: 63px;
+	left: 124px;
+	top: 39px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Component_6__3 {
+	position: absolute;
+	width: 319.688px;
+	height: 18.286px;
+	left: 48px;
+	top: 113px;
+	overflow: visible;
+}
+#Icon_awesome-database_dx {
+	fill: rgba(141,157,177,1);
+}
+.Icon_awesome-database_dx {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 18.286px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_map-bank_dy {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_map-bank_dy {
+	overflow: visible;
+	position: absolute;
+	width: 8.688px;
+	height: 13.44px;
+	left: 311px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: lending.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-clipboard-li_dz {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-clipboard-li_dz {
+	overflow: visible;
+	position: absolute;
+	width: 10.5px;
+	height: 14px;
+	left: 227px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: inventory.html;
+	cursor: pointer;
+}
+#lend_Icon_open-magnifying-glas_d {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_open-magnifying-glas_d {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 267px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: tracking.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-user-friends_d {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-user-friends_d {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 14px;
+	left: 177px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: partners.html;
+	cursor: pointer;
+}
+#lend_Icon_material-message_d {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-message_d {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 133px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_awesome-wpforms_d {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-wpforms_d {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 15.754px;
+	left: 90px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#lend_Icon_material-dashboard_d {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-dashboard_d {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 16.941px;
+	left: 46px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#msgs_main_content {
+	fill: rgba(255,255,255,1);
+}
+.msgs_main_content {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 341px;
+	height: 498px;
+	left: 45px;
+	top: 169px;
+}
+#Chats_grid {
+	position: absolute;
+	width: 292px;
+	height: 431px;
+	left: 69px;
+	top: 202px;
+	overflow: hidden;
+}
+#Box {
+	position: absolute;
+	width: 330px;
+	height: 107px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,0.341);
+}
+.Rectangle_3 {
+	filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.404));
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	height: 119px;
+	left: 0px;
+	top: 0px;
+}
+#Avatar_Girl {
+	left: 89px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#n_5m {
+	left: 310px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -9px;
+	text-align: right;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_1 {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 15px;
+	top: 15px;
+	overflow: visible;
+}
+#Hey_what_are_you_doing_there_I {
+	opacity: 0.701;
+	left: 88px;
+	top: 31px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 62px;
+	line-height: 18px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Box_ed {
+	position: absolute;
+	width: 330px;
+	height: 107px;
+	left: 0px;
+	top: 127px;
+	overflow: visible;
+}
+#Rectangle_4 {
+	fill: rgba(255,255,255,0.341);
+}
+.Rectangle_4 {
+	filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.404));
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	height: 119px;
+	left: 0px;
+	top: 0px;
+}
+#Crazy_Martian {
+	left: 89px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#n_h {
+	left: 318px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -9px;
+	text-align: right;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_2 {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 15px;
+	top: 15px;
+	overflow: visible;
+}
+#I_will_destroy_planet_Earth_an {
+	opacity: 0.701;
+	left: 88px;
+	top: 31px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 62px;
+	line-height: 18px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Box_ej {
+	position: absolute;
+	width: 330px;
+	height: 107px;
+	left: 0px;
+	top: 254px;
+	overflow: visible;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,0.341);
+}
+.Rectangle_5 {
+	filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.404));
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	height: 119px;
+	left: 0px;
+	top: 0px;
+}
+#Real_Alien {
+	left: 89px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#n_h_em {
+	left: 318px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -9px;
+	text-align: right;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_3 {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 15px;
+	top: 15px;
+	overflow: visible;
+}
+#Let_me_know_when_we_can_meet_u {
+	opacity: 0.701;
+	left: 88px;
+	top: 31px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 62px;
+	line-height: 18px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Box_ep {
+	position: absolute;
+	width: 330px;
+	height: 107px;
+	left: 0px;
+	top: 381px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	fill: rgba(255,255,255,0.341);
+}
+.Rectangle_6 {
+	filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.404));
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	height: 119px;
+	left: 0px;
+	top: 0px;
+}
+#Predator {
+	left: 89px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#n_d {
+	left: 318px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -9px;
+	text-align: right;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_4 {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 15px;
+	top: 15px;
+	overflow: visible;
+}
+#All_good_I_didnt_manage_to_spe {
+	opacity: 0.701;
+	left: 88px;
+	top: 31px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 62px;
+	line-height: 18px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Component_49__1 {
+	position: absolute;
+	width: 162px;
+	height: 23px;
+	left: 121px;
+	top: 173px;
+	overflow: visible;
+}
+#Line_1 {
+	opacity: 0.53;
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 162.003px;
+	height: 1.5px;
+	left: 0px;
+	top: 20px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Search_icon {
+	fill: rgba(0,83,149,1);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Search_icon {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 0px;
+	top: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#search_messages {
+	opacity: 0.39;
+	left: 20px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -8px;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#msgs_heading {
+	left: 23px;
+	top: 143px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	height: 14px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(141,157,177,1);
+}

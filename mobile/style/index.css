@@ -1,0 +1,356 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 414px;
+	height: 736px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_body {
+	fill: rgba(235,235,235,1);
+}
+.index_body {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 736px;
+	left: 0px;
+	top: 0px;
+}
+#index_content {
+	fill: rgba(255,255,255,1);
+}
+.index_content {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 670px;
+	left: 19px;
+	top: 33px;
+}
+#index_footer {
+	fill: rgba(0,83,149,1);
+}
+.index_footer {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 46px;
+	left: 19px;
+	top: 657px;
+}
+#menu {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 19px;
+	top: 106px;
+	overflow: visible;
+}
+#index_menu {
+	position: absolute;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+}
+#dashboard_1 {
+	fill: rgba(255,255,255,1);
+}
+.dashboard_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 93px;
+	left: 85px;
+	top: 167px;
+}
+#dashboard_3 {
+	fill: rgba(255,255,255,1);
+}
+.dashboard_3 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 93px;
+	left: 85px;
+	top: 337px;
+}
+#dashboard_4 {
+	fill: rgba(255,255,255,1);
+}
+.dashboard_4 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 93px;
+	left: 85px;
+	top: 422px;
+}
+#dashboard_5 {
+	fill: rgba(255,255,255,1);
+}
+.dashboard_5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 93px;
+	left: 85px;
+	top: 507px;
+}
+#dashboard_2 {
+	fill: rgba(255,255,255,1);
+}
+.dashboard_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 93px;
+	left: 85px;
+	top: 252px;
+}
+#index_social_menu {
+	fill: rgba(141,157,177,1);
+}
+.index_social_menu {
+	overflow: visible;
+	position: absolute;
+	width: 95.05px;
+	height: 12.25px;
+	left: 159.475px;
+	top: 673.875px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#index_example_1 {
+	position: absolute;
+	width: 117px;
+	height: 66px;
+	left: 149px;
+	top: 172px;
+	overflow: visible;
+}
+#index_example_2 {
+	position: absolute;
+	width: 123px;
+	height: 66px;
+	left: 92px;
+	top: 257px;
+	overflow: visible;
+}
+#index_example_3 {
+	position: absolute;
+	width: 136px;
+	height: 66px;
+	left: 139px;
+	top: 343px;
+	overflow: visible;
+}
+#tps_chart {
+	position: absolute;
+	width: 128px;
+	height: 66px;
+	left: 143px;
+	top: 428px;
+	overflow: visible;
+}
+#index_example2a {
+	position: absolute;
+	width: 86px;
+	height: 66px;
+	left: 239px;
+	top: 257px;
+	overflow: visible;
+}
+#index_example4 {
+	position: absolute;
+	width: 144px;
+	height: 66px;
+	left: 135px;
+	top: 512px;
+	overflow: visible;
+}
+#dEDI_logo_mobile {
+	position: absolute;
+	width: 167px;
+	height: 63px;
+	left: 124px;
+	top: 39px;
+	overflow: visible;
+}
+#Component_6__1 {
+	position: absolute;
+	width: 319.688px;
+	height: 18.286px;
+	left: 48px;
+	top: 113px;
+	overflow: visible;
+}
+#Icon_awesome-database {
+	fill: rgba(141,157,177,1);
+}
+.Icon_awesome-database {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 18.286px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#lend_Icon_map-bank {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_map-bank {
+	overflow: visible;
+	position: absolute;
+	width: 8.688px;
+	height: 13.44px;
+	left: 311px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: lending.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-clipboard-li {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-clipboard-li {
+	overflow: visible;
+	position: absolute;
+	width: 10.5px;
+	height: 14px;
+	left: 227px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: inventory.html;
+	cursor: pointer;
+}
+#lend_Icon_open-magnifying-glas {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_open-magnifying-glas {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 267px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: tracking.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-user-friends {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-user-friends {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 14px;
+	left: 177px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: partners.html;
+	cursor: pointer;
+}
+#lend_Icon_material-message {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-message {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 133px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: messages.html;
+	cursor: pointer;
+}
+#lend_Icon_awesome-wpforms {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_awesome-wpforms {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 15.754px;
+	left: 90px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#lend_Icon_material-dashboard {
+	fill: rgba(141,157,177,1);
+}
+.lend_Icon_material-dashboard {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 16.941px;
+	left: 46px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+}

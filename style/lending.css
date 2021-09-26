@@ -1,0 +1,240 @@
+.mediaViewInfo {
+	--web-view-name: lending;
+	--web-view-id: lending;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: lending;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#lending {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(235,235,235,1);
+	overflow: hidden;
+	--web-view-name: lending;
+	--web-view-id: lending;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_main_vk {
+	fill: rgba(246,247,248,1);
+}
+.index_main_vk {
+	overflow: visible;
+	position: absolute;
+	width: 1208px;
+	height: 739px;
+	left: 36px;
+	top: 31px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_26__1_vl {
+	position: absolute;
+	width: 65.326px;
+	height: 770px;
+	left: 36px;
+	top: 0px;
+	overflow: visible;
+}
+#index_menu_vm {
+	fill: rgba(246,247,248,1);
+}
+.index_menu_vm {
+	position: absolute;
+	overflow: visible;
+	width: 65.326px;
+	height: 770px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_awesome-money-bill_vn {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-money-bill_vn {
+	overflow: visible;
+	position: absolute;
+	width: 45px;
+	height: 27px;
+	left: 10px;
+	top: 728px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_open-magnifying-glass_vo {
+	fill: rgba(0,83,149,1);
+}
+.Icon_open-magnifying-glass_vo {
+	overflow: visible;
+	position: absolute;
+	width: 36.326px;
+	height: 36.326px;
+	left: 15px;
+	top: 631px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: inventory.html;
+	cursor: pointer;
+}
+#Icon_awesome-clipboard-check_vp {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-clipboard-check_vp {
+	overflow: visible;
+	position: absolute;
+	width: 27px;
+	height: 36px;
+	left: 19px;
+	top: 525.181px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: inventory.html;
+	cursor: pointer;
+}
+#Icon_awesome-users_vq {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-users_vq {
+	overflow: visible;
+	position: absolute;
+	width: 45px;
+	height: 31.5px;
+	left: 10px;
+	top: 429.009px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: partners.html;
+	cursor: pointer;
+}
+#Icon_material-message_vr {
+	fill: rgba(0,83,149,1);
+}
+.Icon_material-message_vr {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 18px;
+	top: 333.992px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: msgs.html;
+	cursor: pointer;
+}
+#Icon_awesome-wpforms_vs {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-wpforms_vs {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 31.507px;
+	left: 17px;
+	top: 237.99px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#Icon_material-dashboard_vt {
+	fill: rgba(0,83,149,1);
+}
+.Icon_material-dashboard_vt {
+	overflow: visible;
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 19px;
+	top: 147.139px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Icon_awesome-database_vu {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-database_vu {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 36px;
+	left: 17px;
+	top: 44px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#index_header_vv {
+	fill: transparent;
+}
+.index_header_vv {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 76px;
+	left: 101px;
+	top: 31px;
+}
+#Rectangle_305_vw {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_305_vw {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 739px;
+	left: 101px;
+	top: 31px;
+}
+#Rectangle_313_vx {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_313_vx {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 669px;
+	left: 101px;
+	top: 101px;
+}
+#lend3 {
+	position: absolute;
+	width: 1143px;
+	height: 546px;
+	left: 101px;
+	top: 101px;
+	overflow: visible;
+}
+#dEDI_vz {
+	position: absolute;
+	width: 90px;
+	height: 80px;
+	left: 126px;
+	top: 35px;
+	overflow: visible;
+}

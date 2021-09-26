@@ -1,0 +1,2889 @@
+.mediaViewInfo {
+	--web-view-name: inventory;
+	--web-view-id: inventory;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: inventory;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#inventory {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(235,235,235,1);
+	overflow: hidden;
+	--web-view-name: inventory;
+	--web-view-id: inventory;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#index_main_pt {
+	fill: rgba(246,247,248,1);
+}
+.index_main_pt {
+	overflow: visible;
+	position: absolute;
+	width: 1208px;
+	height: 739px;
+	left: 36px;
+	top: 31px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_26__1_pu {
+	position: absolute;
+	width: 65.326px;
+	height: 770px;
+	left: 36px;
+	top: 0px;
+	overflow: visible;
+}
+#index_menu_pv {
+	fill: rgba(246,247,248,1);
+}
+.index_menu_pv {
+	position: absolute;
+	overflow: visible;
+	width: 65.326px;
+	height: 770px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_awesome-money-bill_pw {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-money-bill_pw {
+	overflow: visible;
+	position: absolute;
+	width: 45px;
+	height: 27px;
+	left: 10px;
+	top: 728px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: lending.html;
+	cursor: pointer;
+}
+#Icon_open-magnifying-glass_px {
+	fill: rgba(0,83,149,1);
+}
+.Icon_open-magnifying-glass_px {
+	overflow: visible;
+	position: absolute;
+	width: 36.326px;
+	height: 36.326px;
+	left: 15px;
+	top: 631px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: tracking.html;
+	cursor: pointer;
+}
+#Icon_awesome-clipboard-check_py {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-clipboard-check_py {
+	overflow: visible;
+	position: absolute;
+	width: 27px;
+	height: 36px;
+	left: 19px;
+	top: 525.181px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-users_pz {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-users_pz {
+	overflow: visible;
+	position: absolute;
+	width: 45px;
+	height: 31.5px;
+	left: 10px;
+	top: 429.009px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: partners.html;
+	cursor: pointer;
+}
+#Icon_material-message_p {
+	fill: rgba(0,83,149,1);
+}
+.Icon_material-message_p {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 18px;
+	top: 333.992px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: msgs.html;
+	cursor: pointer;
+}
+#Icon_awesome-wpforms_p {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-wpforms_p {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 31.507px;
+	left: 17px;
+	top: 237.99px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forms.html;
+	cursor: pointer;
+}
+#Icon_material-dashboard_p {
+	fill: rgba(0,83,149,1);
+}
+.Icon_material-dashboard_p {
+	overflow: visible;
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 19px;
+	top: 147.139px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Icon_awesome-database_p {
+	fill: rgba(0,83,149,1);
+}
+.Icon_awesome-database_p {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 36px;
+	left: 17px;
+	top: 44px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#index_header_p {
+	fill: transparent;
+}
+.index_header_p {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 76px;
+	left: 101px;
+	top: 31px;
+}
+#Rectangle_305_p {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_305_p {
+	position: absolute;
+	overflow: visible;
+	width: 1143px;
+	height: 739px;
+	left: 101px;
+	top: 31px;
+}
+#Rectangle_312 {
+	fill: rgba(27,50,68,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_312 {
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	height: 667px;
+	left: 101px;
+	top: 101px;
+}
+#Inventory_Requests_Brands_Cate {
+	left: 137px;
+	top: 253px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+#Assigned_to_Me_Created_by_Me {
+	left: 135px;
+	top: 370px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+#Nike_shoes_Need_to_restock_NB_ {
+	left: 133px;
+	top: 434px;
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+#n_Save_Filter {
+	left: 137px;
+	top: 543px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(250,250,250,1);
+}
+#Group_1 {
+	position: absolute;
+	width: 28px;
+	height: 18px;
+	left: 267px;
+	top: 254px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n_40 {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_2 {
+	position: absolute;
+	width: 22px;
+	height: 18px;
+	left: 273px;
+	top: 280px;
+	overflow: visible;
+}
+#Rectangle_2_qf {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_qf {
+	position: absolute;
+	overflow: visible;
+	width: 22px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n_2_qg {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_3 {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 279px;
+	top: 306px;
+	overflow: visible;
+}
+#Rectangle_2_qi {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_qi {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n__qj {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_4 {
+	position: absolute;
+	width: 21px;
+	height: 18px;
+	left: 274px;
+	top: 332px;
+	overflow: visible;
+}
+#Rectangle_2_ql {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_ql {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n_3 {
+	left: 4px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_5_qn {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 279px;
+	top: 370px;
+	overflow: visible;
+}
+#Rectangle_2_qo {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_qo {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n__qp {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_6 {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 279px;
+	top: 396px;
+	overflow: visible;
+}
+#Rectangle_2_qr {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_qr {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n__qs {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_7 {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 279px;
+	top: 434px;
+	overflow: visible;
+}
+#Rectangle_2_qu {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_qu {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n__qv {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_8 {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 279px;
+	top: 460px;
+	overflow: visible;
+}
+#Rectangle_2_qx {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_qx {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n__qy {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Group_9 {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 279px;
+	top: 486px;
+	overflow: visible;
+}
+#Rectangle_2_q {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_q {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#n__q {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,83,149,1);
+}
+#Rectangle_9 {
+	fill: rgba(0,83,149,1);
+}
+.Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 4px;
+	height: 20px;
+	left: 120px;
+	top: 250px;
+}
+#Manage {
+	left: 142px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(253,253,253,1);
+}
+#Rectangle_1 {
+	fill: rgba(225,222,221,1);
+	stroke: rgba(0,83,149,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.09));
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	height: 39px;
+	left: 141px;
+	top: 187px;
+}
+#Inventory_q {
+	left: 137px;
+	top: 139px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#n_Add {
+	left: 151px;
+	top: 194px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,83,149,1);
+}
+#Rectangle_313 {
+	fill: rgba(157,154,154,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_313 {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 660px;
+	left: 324px;
+	top: 101px;
+}
+#big_data_table {
+	position: absolute;
+	width: 909px;
+	height: 660px;
+	left: 324px;
+	top: 101px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 911px;
+	height: 662px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_14 {
+	fill: rgba(251,244,239,1);
+	stroke: rgba(227,214,206,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 911px;
+	height: 9px;
+	left: 0px;
+	top: 653px;
+}
+#Rectangle_4 {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 40px;
+}
+#shoe {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 53px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Lunar_Epic_Flyknit {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20 {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7 {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#n_20_rk {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_rl {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 101px;
+	overflow: visible;
+}
+#Rectangle_6_rm {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_rm {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#SB_Koston_Hyperfeel_3 {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_ro {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_rp {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_rq {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_rr {
+	fill: rgba(245,221,248,1);
+}
+.Rectangle_7_rr {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 24px;
+	left: 515.844px;
+	top: 0px;
+}
+#Average {
+	left: 526.737px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(152,86,160,1);
+}
+#n_20_rt {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_ru {
+	position: absolute;
+	width: 909px;
+	height: 44px;
+	left: 0px;
+	top: 148.464px;
+	overflow: visible;
+}
+#Rectangle_6_rv {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_rv {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Skate_Mental_x_Nike_SB_ {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_rx {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_ry {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_rz {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_r {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_10 {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_r {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#shoe_r {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 184.638px;
+	overflow: visible;
+}
+#Rectangle_6_r {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_r {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#NikeLab_Air_Zoom_LWP_x_Kim_Jon {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 241px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_r {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_r {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_sa {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_sb {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_11 {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_sb {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#shoe_sc {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 220.812px;
+	overflow: visible;
+}
+#Rectangle_6_sd {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_sd {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#atmos_x_Nike_Air_Max_1_Safari {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 196px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_sf {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_sg {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_sh {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_si {
+	fill: rgba(161,238,239,1);
+}
+.Rectangle_7_si {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 24px;
+	left: 521.647px;
+	top: 0px;
+}
+#High {
+	left: 532.217px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(97,143,143,1);
+}
+#n_20_sk {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_sl {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 256.985px;
+	overflow: visible;
+}
+#Rectangle_6_sm {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_sm {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#NikeLab_Air_Rift_Wrap {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_so {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_sp {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_sq {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_sr {
+	fill: rgba(161,238,239,1);
+}
+.Rectangle_7_sr {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 24px;
+	left: 521.647px;
+	top: 0px;
+}
+#High_ss {
+	left: 532.217px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(97,143,143,1);
+}
+#n_20_st {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_su {
+	position: absolute;
+	width: 909px;
+	height: 44px;
+	left: 0px;
+	top: 293.159px;
+	overflow: visible;
+}
+#Rectangle_6_sv {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_sv {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#NikeLab_Air_Force_1_Mid_Vachet {
+	left: 21px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 228px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_sx {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_sy {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_sz {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_s {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_12 {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_s {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#shoe_s {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 329.333px;
+	overflow: visible;
+}
+#Rectangle_6_s {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_s {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Supreme_x_NikeLabAir_Max_98 {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_s {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_s {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_ta {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_tb {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_13 {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_tb {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#shoe_tc {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 365.507px;
+	overflow: visible;
+}
+#Rectangle_6_td {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_td {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Nike_Air_Max_LD-Zero_H {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_tf {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_tg {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_th {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_ti {
+	fill: rgba(245,221,248,1);
+}
+.Rectangle_7_ti {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 24px;
+	left: 515.844px;
+	top: 0px;
+}
+#Average_tj {
+	left: 526.737px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(152,86,160,1);
+}
+#n_20_tk {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_tl {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 401.681px;
+	overflow: visible;
+}
+#Rectangle_6_tm {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_tm {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Nike_Air_Presto_Ultra_Flynit {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_to {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_tp {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_tq {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_tr {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_7_tr {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_ts {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#n_20_tt {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_tu {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 437.855px;
+	overflow: visible;
+}
+#Rectangle_6_tv {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_tv {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Nike_Air_More_Uptempo {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_tx {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_ty {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_tz {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_t {
+	fill: rgba(161,238,239,1);
+}
+.Rectangle_7_t {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 24px;
+	left: 521.647px;
+	top: 0px;
+}
+#High_t {
+	left: 532.217px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(97,143,143,1);
+}
+#n_20_t {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_t {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 474.029px;
+	overflow: visible;
+}
+#Rectangle_6_t {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_t {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#Concepts_x_Nike_Free_Trainer_1 {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 217px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_t {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_t {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_ua {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_ua {
+	fill: rgba(245,221,248,1);
+}
+.Rectangle_7_ua {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 24px;
+	left: 515.844px;
+	top: 0px;
+}
+#Average_ua {
+	left: 526.737px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(152,86,160,1);
+}
+#n_20_ub {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_uc {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 510.203px;
+	overflow: visible;
+}
+#Rectangle_6_ud {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_ud {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#NikeLab_Air_Max_1_Royal {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_uf {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_ug {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_uh {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_ui {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_7_ui {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_uj {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#n_20_uk {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_ul {
+	position: absolute;
+	width: 909px;
+	height: 44px;
+	left: 0px;
+	top: 569px;
+	overflow: visible;
+}
+#Rectangle_6_um {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_um {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#NikeLab_Air_Force_1_Mid_Vachet_un {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 232px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_uo {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_up {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_uq {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_ur {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_7_ur {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_us {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#n_20_ut {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#shoe_uu {
+	position: absolute;
+	width: 909px;
+	height: 36px;
+	left: 0px;
+	top: 617px;
+	overflow: visible;
+}
+#Rectangle_6_uv {
+	fill: rgba(227,214,206,1);
+}
+.Rectangle_6_uv {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 1px;
+	left: 0px;
+	top: 35px;
+}
+#SB_Koston_Hyperfeel_3_uw {
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Nike_ux {
+	left: 265.498px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Athletic_shoes_uy {
+	left: 355.094px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#n_20_uz {
+	left: 690.937px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#Rectangle_7_u {
+	fill: rgba(245,206,210,1);
+}
+.Rectangle_7_u {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 24px;
+	left: 522.103px;
+	top: 0px;
+}
+#Low_u {
+	left: 532.888px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(151,40,52,1);
+}
+#n_20_u {
+	left: 763px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(147,107,82,1);
+}
+#table {
+	position: absolute;
+	width: 909px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_8 {
+	fill: rgba(251,244,239,1);
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 909px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+#Name {
+	left: 20px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(147,107,82,1);
+}
+#Brand {
+	left: 264.377px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(147,107,82,1);
+}
+#Category {
+	left: 360.142px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(147,107,82,1);
+}
+#Stock_Level {
+	left: 516.552px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(147,107,82,1);
+}
+#Price {
+	left: 690.646px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(147,107,82,1);
+}
+#Items_Sold {
+	left: 763px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(147,107,82,1);
+}
+#arrow_down {
+	fill: rgba(191,160,140,1);
+}
+.arrow_down {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	left: 66px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#arrow_down_vc {
+	fill: rgba(191,160,140,1);
+}
+.arrow_down_vc {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	left: 297.578px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#arrow_down_vd {
+	fill: rgba(191,160,140,1);
+}
+.arrow_down_vd {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	left: 410.124px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#arrow_down_ve {
+	fill: rgba(191,160,140,1);
+}
+.arrow_down_ve {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	left: 583.075px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#arrow_down_vf {
+	fill: rgba(191,160,140,1);
+}
+.arrow_down_vf {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	left: 724.233px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#arrow_down_vg {
+	fill: rgba(191,160,140,1);
+}
+.arrow_down_vg {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	left: 839px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#dEDI_vh {
+	position: absolute;
+	width: 90px;
+	height: 80px;
+	left: 126px;
+	top: 35px;
+	overflow: visible;
+}
